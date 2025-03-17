@@ -1,0 +1,12 @@
+@startuml
+Class Calculadora{
+--
++suma(num : int, num: int): int
++resta(num : int, num: int): int
++multiplicacion(num : int, num: int): int
++division(num : int, num: int): int
+}
+
+@endumlv
+Persona <-- Estudiante
+@enduml

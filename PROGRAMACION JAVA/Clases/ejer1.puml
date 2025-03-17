@@ -1,0 +1,16 @@
+@startuml
+class Estudiante{
+    - nombre: String
+    - edad: int
+    - Matricula: String
+    --
+    + Estudiante(n:String, e:int,m:String
+    + getNombre():String
+    + setNombre()
+    + getEdad():int
+
+
+
+
+}
+@enduml
