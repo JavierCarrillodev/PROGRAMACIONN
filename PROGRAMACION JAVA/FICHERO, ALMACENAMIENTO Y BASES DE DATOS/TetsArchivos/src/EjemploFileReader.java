@@ -8,7 +8,7 @@ public class EjemploFileReader {
         String fichero = "fichero.txt";
 
         try {
-            //Creamos un objeto FileWriter
+            //Creamos un objeto FilerReader
             FileReader fileReader = new FileReader(fichero);
 
             //Leer y mostrar el contenido del archivo

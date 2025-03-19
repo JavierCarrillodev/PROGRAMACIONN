@@ -20,7 +20,7 @@ public class EjercicioBufferWriter {
                 bw.write( "Esta es la linea: " + i);
                 bw.newLine();
             }
-            // al cerrar el BufferWriter se cierra tambien el FileWriter
+            // Al cerrar el BufferWriter se cierra tambien el FileWriter
             bw.close();
             System.out.println("Archivo " + nombreFichero + " ha sido creado con " + numlineas + " lineas" );
 

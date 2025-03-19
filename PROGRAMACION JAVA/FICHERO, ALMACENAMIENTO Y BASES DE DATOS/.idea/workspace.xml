@@ -32,7 +32,9 @@
     "Application.EjemploPrintWriter.executor": "Run",
     "Application.EjemploPrintWriter2.executor": "Run",
     "Application.EjemploScanner.executor": "Run",
+    "Application.EjercicioBufferReader.executor": "Run",
     "Application.EjercicioBufferWriter.executor": "Run",
+    "Application.EjercicioNombres.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "kotlin-language-version-configured": "true",
@@ -47,16 +49,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EjercicioBufferWriter">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TetsArchivos/Ejercicios/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EjercicioNombres">
     <configuration name="EjemploFileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploFileReader" />
-      <module name="TetsArchivos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjemploFileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploFileWriter" />
       <module name="TetsArchivos" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,9 +69,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploScanner" />
-      <module name="TetsArchivos" />
+    <configuration name="EjercicioBufferReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjercicioBufferReader" />
+      <module name="Ejercicios" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,13 +83,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjercicioNombres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjercicioNombres" />
+      <module name="Ejercicios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjercicioNombres" />
+        <item itemvalue="Application.EjercicioBufferReader" />
+        <item itemvalue="Application.EjemploFileReader" />
         <item itemvalue="Application.EjercicioBufferWriter" />
         <item itemvalue="Application.EjemploPrintWriter2" />
-        <item itemvalue="Application.EjemploScanner" />
-        <item itemvalue="Application.EjemploFileWriter" />
-        <item itemvalue="Application.EjemploFileReader" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +119,7 @@
       <workItem from="1742289228592" duration="1251000" />
       <workItem from="1742307207614" duration="886000" />
       <workItem from="1742372429772" duration="319000" />
-      <workItem from="1742372992446" duration="9930000" />
+      <workItem from="1742372992446" duration="13050000" />
     </task>
     <servers />
   </component>
