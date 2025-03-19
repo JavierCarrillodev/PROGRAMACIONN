@@ -25,25 +25,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.EjemploFileReader.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjemploFileWriter.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EjemploFileReader.executor": "Run",
+    "Application.EjemploFileWriter.executor": "Run",
+    "Application.EjemploPrintWriter.executor": "Run",
+    "Application.EjemploPrintWriter2.executor": "Run",
+    "Application.EjemploScanner.executor": "Run",
+    "Application.EjercicioBufferWriter.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.EjemploFileReader">
+}]]></component>
+  <component name="RunManager" selected="Application.EjercicioBufferWriter">
     <configuration name="EjemploFileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploFileReader" />
       <module name="TetsArchivos" />
@@ -58,10 +62,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemploPrintWriter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemploPrintWriter2" />
+      <module name="TetsArchivos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemploScanner" />
+      <module name="TetsArchivos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjercicioBufferWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjercicioBufferWriter" />
+      <module name="TetsArchivos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjemploFileReader" />
+        <item itemvalue="Application.EjercicioBufferWriter" />
+        <item itemvalue="Application.EjemploPrintWriter2" />
+        <item itemvalue="Application.EjemploScanner" />
         <item itemvalue="Application.EjemploFileWriter" />
+        <item itemvalue="Application.EjemploFileReader" />
       </list>
     </recent_temporary>
   </component>
@@ -82,7 +110,9 @@
       <option name="presentableId" value="Default" />
       <updated>1742289227457</updated>
       <workItem from="1742289228592" duration="1251000" />
-      <workItem from="1742307207614" duration="664000" />
+      <workItem from="1742307207614" duration="886000" />
+      <workItem from="1742372429772" duration="319000" />
+      <workItem from="1742372992446" duration="9930000" />
     </task>
     <servers />
   </component>
