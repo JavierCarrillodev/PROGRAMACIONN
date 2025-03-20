@@ -39,6 +39,9 @@
     "Application.Ejer3.executor": "Run",
     "Application.Ejer4.executor": "Run",
     "Application.Ejer5.executor": "Run",
+    "Application.Ejer6.executor": "Run",
+    "Application.Ejer7.executor": "Run",
+    "Application.Ejer8.executor": "Run",
     "Application.EjercicioBufferReader.executor": "Run",
     "Application.EjercicioBufferWriter.executor": "Run",
     "Application.EjercicioNombres.executor": "Run",
@@ -63,21 +66,7 @@
       <recent name="$PROJECT_DIR$/TetsArchivos/Ejercicios/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ejer5">
-    <configuration name="Ejer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejer2" />
-      <module name="EjerciciosDeClases" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ejer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejer3" />
-      <module name="EjerciciosDeClases" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ejer8">
     <configuration name="Ejer4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ejer4" />
       <module name="EjerciciosDeClases" />
@@ -92,8 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileReader" />
+    <configuration name="Ejer6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejer6" />
+      <module name="EjerciciosDeClases" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejer7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejer7" />
+      <module name="EjerciciosDeClases" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejer8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejer8" />
       <module name="EjerciciosDeClases" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejer8" />
+        <item itemvalue="Application.Ejer7" />
+        <item itemvalue="Application.Ejer6" />
         <item itemvalue="Application.Ejer5" />
         <item itemvalue="Application.Ejer4" />
-        <item itemvalue="Application.Ejer3" />
-        <item itemvalue="Application.Ejer2" />
-        <item itemvalue="Application.FileReader" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +133,8 @@
       <workItem from="1742372429772" duration="319000" />
       <workItem from="1742372992446" duration="13163000" />
       <workItem from="1742464171381" duration="93000" />
-      <workItem from="1742464541828" duration="10337000" />
+      <workItem from="1742464541828" duration="11092000" />
+      <workItem from="1742490747994" duration="3561000" />
     </task>
     <servers />
   </component>
