@@ -27,14 +27,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CaracterPorCaracter.executor": "Run",
+    "Application.CrearBorrar_FicheroyCarpetas.executor": "Run",
     "Application.EjemploFileReader.executor": "Run",
     "Application.EjemploFileWriter.executor": "Run",
     "Application.EjemploPrintWriter.executor": "Run",
     "Application.EjemploPrintWriter2.executor": "Run",
     "Application.EjemploScanner.executor": "Run",
+    "Application.Ejer1.executor": "Run",
+    "Application.Ejer2.executor": "Run",
+    "Application.Ejer3.executor": "Run",
+    "Application.Ejer4.executor": "Run",
+    "Application.Ejer5.executor": "Run",
     "Application.EjercicioBufferReader.executor": "Run",
     "Application.EjercicioBufferWriter.executor": "Run",
     "Application.EjercicioNombres.executor": "Run",
+    "Application.FileReader.executor": "Run",
+    "Application.PuebaClaseFile.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "kotlin-language-version-configured": "true",
@@ -54,49 +63,49 @@
       <recent name="$PROJECT_DIR$/TetsArchivos/Ejercicios/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjercicioNombres">
-    <configuration name="EjemploFileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploFileReader" />
-      <module name="TetsArchivos" />
+  <component name="RunManager" selected="Application.Ejer5">
+    <configuration name="Ejer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejer2" />
+      <module name="EjerciciosDeClases" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploPrintWriter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploPrintWriter2" />
-      <module name="TetsArchivos" />
+    <configuration name="Ejer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejer3" />
+      <module name="EjerciciosDeClases" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjercicioBufferReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjercicioBufferReader" />
-      <module name="Ejercicios" />
+    <configuration name="Ejer4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejer4" />
+      <module name="EjerciciosDeClases" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjercicioBufferWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjercicioBufferWriter" />
-      <module name="TetsArchivos" />
+    <configuration name="Ejer5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejer5" />
+      <module name="EjerciciosDeClases" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjercicioNombres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjercicioNombres" />
-      <module name="Ejercicios" />
+    <configuration name="FileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileReader" />
+      <module name="EjerciciosDeClases" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjercicioNombres" />
-        <item itemvalue="Application.EjercicioBufferReader" />
-        <item itemvalue="Application.EjemploFileReader" />
-        <item itemvalue="Application.EjercicioBufferWriter" />
-        <item itemvalue="Application.EjemploPrintWriter2" />
+        <item itemvalue="Application.Ejer5" />
+        <item itemvalue="Application.Ejer4" />
+        <item itemvalue="Application.Ejer3" />
+        <item itemvalue="Application.Ejer2" />
+        <item itemvalue="Application.FileReader" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +128,9 @@
       <workItem from="1742289228592" duration="1251000" />
       <workItem from="1742307207614" duration="886000" />
       <workItem from="1742372429772" duration="319000" />
-      <workItem from="1742372992446" duration="13050000" />
+      <workItem from="1742372992446" duration="13163000" />
+      <workItem from="1742464171381" duration="93000" />
+      <workItem from="1742464541828" duration="10337000" />
     </task>
     <servers />
   </component>

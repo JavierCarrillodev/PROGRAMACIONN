@@ -1,9 +1,9 @@
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
 public class EjercicioNombres {
     public static void main(String[] args) {
-
         String Nombre1 = "Nombre1.txt";
         crearNombres(Nombre1);
     }

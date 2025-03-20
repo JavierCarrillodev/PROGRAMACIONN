@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TetsArchivos/Ejercicios/Ejercicios.iml" filepath="$PROJECT_DIR$/TetsArchivos/Ejercicios/Ejercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TetsArchivos/EjerciciosDeClases/EjerciciosDeClases.iml" filepath="$PROJECT_DIR$/TetsArchivos/EjerciciosDeClases/EjerciciosDeClases.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Prueba 2.iml" filepath="$PROJECT_DIR$/.idea/Prueba 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TetsArchivos/EjerciciosDeClases/PruebaDeTeoria/PruebaDeTeoria.iml" filepath="$PROJECT_DIR$/TetsArchivos/EjerciciosDeClases/PruebaDeTeoria/PruebaDeTeoria.iml" />
       <module fileurl="file://$PROJECT_DIR$/TetsArchivos/TetsArchivos.iml" filepath="$PROJECT_DIR$/TetsArchivos/TetsArchivos.iml" />
     </modules>
   </component>
