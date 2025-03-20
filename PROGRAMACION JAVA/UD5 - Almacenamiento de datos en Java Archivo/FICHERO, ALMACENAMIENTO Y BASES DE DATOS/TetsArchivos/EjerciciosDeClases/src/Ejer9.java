@@ -5,9 +5,11 @@ Desarrolla un programa que renombre el archivo `datos.txt` a `informacion.txt`, 
 realizado con éxito.*/
 public class Ejer9 {
     public static void main(String[] args) {
-
-        File archivoOriginal = new File("datos.txt");
-        File archivoRenombrado = new File("datillos.txt");
+        RenombrarArchivos("datos.txt", "datillos.txt");
+    }
+    public static void RenombrarArchivos(String archivoOriginalPath, String archivoRenombradoPath) {
+        File archivoOriginal = new File(archivoOriginalPath);
+        File archivoRenombrado = new File(archivoRenombradoPath);
 
         if (archivoOriginal.renameTo(archivoRenombrado)) {
             System.out.println("Se ha cambiado el nombre correctamente");
@@ -16,3 +18,4 @@ public class Ejer9 {
         }
     }
 }
+

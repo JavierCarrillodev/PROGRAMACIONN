@@ -1,20 +1,25 @@
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 /*Ejercicio 1: Crear y escribir en un archivo. Crea un programa en Java que cree un archivo de texto llamado
 `datos.txt` y escriba dentro de él un mensaje de bienvenida*/
 
 public class Ejer1 {
     public static void main(String[] args) {
-        String Fichero = "datos.txt";
 
-        File Datos = new File("/home/javi/Escritorio/datos.txt");
+        CrearFichero("hola");
+    }
+    public static void CrearFichero(String nombre) {
+
+        File archivo = new File(nombre);
+
         try {
-            FileWriter fw = new FileWriter(Fichero);
-            fw.write("Hola esto es la bienvenida");
-            fw.close();
+          if (!archivo.exists()) {
+              archivo.createNewFile();
+          }
+          FileWriter fw = new FileWriter(archivo);
+          BufferedWriter bw = new BufferedWriter(fw);
+          bw.write("Hola que tal");
+          bw.close();
 
         }catch (IOException e){
             System.out.println("No se ha leido el fichero, ERROR " + e.getMessage());

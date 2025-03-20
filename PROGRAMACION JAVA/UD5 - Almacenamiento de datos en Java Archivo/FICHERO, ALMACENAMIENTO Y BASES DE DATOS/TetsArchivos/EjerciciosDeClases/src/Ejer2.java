@@ -5,11 +5,11 @@ import java.io.IOException;
 /*Ejercicio 2: Leer un archivo carácter por carácter**
 Escribe un programa en Java que lea el archivo `datos.txt` carácter por carácter y muestre el contenido en la pantalla.*/
 public class Ejer2 {
-    public static void main(String[] args) {
-        String Ficherito = "datos.txt";
+    public static void LeerPorCaracter(String ficherito) {
 
-        try (java.io.FileReader fileReader = new java.io.FileReader(Ficherito);
+        try (FileReader fileReader = new FileReader(ficherito);
              BufferedReader br = new BufferedReader(fileReader)) {
+
             int character;
             while ((character = br.read()) != -1) {
                 System.out.println((char) character);
