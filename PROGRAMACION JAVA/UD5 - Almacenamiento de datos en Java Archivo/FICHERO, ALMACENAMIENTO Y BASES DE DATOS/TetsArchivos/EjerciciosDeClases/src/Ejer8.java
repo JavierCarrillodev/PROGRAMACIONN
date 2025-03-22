@@ -15,7 +15,7 @@ public class Ejer8 {
         int contador = 0;
         String fichero = "datos.txt";
         try {
-            BufferedReader br = new BufferedReader( new FileReader(fichero) );
+            BufferedReader br = new BufferedReader(new FileReader(fichero) );
             String linea;
             while ((linea = br.readLine()) != null) {
                 contador++;

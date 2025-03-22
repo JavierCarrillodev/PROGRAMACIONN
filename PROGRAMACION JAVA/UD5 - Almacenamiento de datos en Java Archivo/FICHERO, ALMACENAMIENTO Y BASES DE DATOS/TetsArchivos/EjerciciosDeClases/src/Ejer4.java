@@ -6,9 +6,11 @@ import java.io.IOException;
 Modifica el archivo `datos.txt` para agregar nuevas líneas de texto sin borrar el contenido anterior.*/
 public class Ejer4 {
     public static void main(String[] args) {
-        String fichero = "datos.txt";
-        String linea = "Hola que tal\n";
-
+        String fichero = "";
+        String linea = "";
+        AgregarContenidoArchivo(fichero,linea);
+    }
+    public static void AgregarContenidoArchivo(String fichero,String linea){
         try {
             FileWriter fw = new FileWriter(fichero,true);
             BufferedWriter bw = new BufferedWriter(fw);

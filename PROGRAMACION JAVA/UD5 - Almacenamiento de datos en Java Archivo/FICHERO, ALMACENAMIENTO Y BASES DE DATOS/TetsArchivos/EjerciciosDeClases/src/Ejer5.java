@@ -6,11 +6,14 @@ import java.io.IOException;
 Crea un programa que cuente el número total de palabras en el archivo `datos.txt` y muestre el resultado en la consola.*/
 public class Ejer5 {
     public static void main(String[] args) {
-        String Fichero = "datos.txt";
-        int totalPalabra = 0;
+        String Fichero = "";
+        ContarPalabraArchivos(Fichero);
+    }
 
 
+    public static void ContarPalabraArchivos(String Fichero) {
         try {
+            int totalPalabra = 0;
 
             BufferedReader br = new BufferedReader( new FileReader(Fichero));
 

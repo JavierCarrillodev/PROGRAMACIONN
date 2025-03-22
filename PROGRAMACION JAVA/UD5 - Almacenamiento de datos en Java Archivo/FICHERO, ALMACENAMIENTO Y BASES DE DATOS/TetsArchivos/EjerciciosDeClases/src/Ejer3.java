@@ -9,7 +9,9 @@ Desarrolla un programa en Java que lea el archivo `datos.txt` línea por línea 
 public class Ejer3 {
     public static void main(String[] args) throws IOException {
         String Fichero = "datos.txt";
-
+        LeerLineaPorLinea(Fichero);
+    }
+    public static void LeerLineaPorLinea(String Fichero){
         try {
             FileReader fw = new FileReader(Fichero);
             BufferedReader br = new BufferedReader(fw);
