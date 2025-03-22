@@ -61,7 +61,7 @@ public class Main {
                         Ejer8.ContarLineas(sc.next());
                         break;
                     case 9:
-                        System.out.println("Indica el nombre del arcivo que quieres renombrar y su nombre nuevo");
+                        System.out.println("Indica el nombre del archivo que quieres renombrar y su nombre nuevo");
                         Ejer9.RenombrarArchivos(sc.next(), sc.next());
                         break;
                     case 10:
