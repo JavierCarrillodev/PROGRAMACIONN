@@ -10,8 +10,8 @@ import java.io.IOException;
 
 public class Ejer6 {
     public static void main(String[] args) {
-        String archivoOrigen = "datos.txt"; // Archivo de origen
-        String archivoDestino = "hola.txt"; // Archivo de destino
+        String archivoOrigen = ""; // Archivo de origen
+        String archivoDestino = ""; // Archivo de destino
 
         // Llamar al metodo para copiar el contenido
         copiarArchivo(archivoOrigen, archivoDestino);
@@ -34,7 +34,6 @@ public class Ejer6 {
                 bw.newLine();     // Añadir un salto de línea
             }
 
-            // Cerrar los flujos de lectura y escritura
             br.close();
             bw.close();
 

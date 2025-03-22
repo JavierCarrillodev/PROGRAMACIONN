@@ -10,10 +10,9 @@ public class Ejer8 {
 
         ContarLineas("datos.txt", "Hola");
     }
-    public static void ContarLineas(String file, String tipo) {
-
+    public static void ContarLineas(String fichero, String tipo) {
         int contador = 0;
-        String fichero = "datos.txt";
+
         try {
             BufferedReader br = new BufferedReader(new FileReader(fichero) );
             String linea;

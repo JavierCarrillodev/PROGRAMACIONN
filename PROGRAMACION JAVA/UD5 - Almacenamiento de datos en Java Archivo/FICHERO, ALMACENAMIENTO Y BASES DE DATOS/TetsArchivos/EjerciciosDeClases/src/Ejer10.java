@@ -5,8 +5,10 @@ import java.io.File;
 public class Ejer10 {
     public static void main(String[] args) {
 
-        String archivo = "datillos.txt";
-
+        String archivo = "";
+        EliminarArchivo(archivo);
+    }
+    public static void EliminarArchivo(String archivo) {
         File archivoParaBorrar = new File(archivo);
         if(archivoParaBorrar.exists()) {
             archivoParaBorrar.delete();
