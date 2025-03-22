@@ -5,10 +5,11 @@ import java.io.*;
 
 public class Ejer1 {
     public static void main(String[] args) {
-
-        CrearFichero("hola");
+        String nombre = "";
+        String contenido = "";
+        CrearFichero(nombre,contenido);
     }
-    public static void CrearFichero(String nombre) {
+    public static void CrearFichero(String nombre,String contenido) {
 
         File archivo = new File(nombre);
 
@@ -18,8 +19,9 @@ public class Ejer1 {
           }
           FileWriter fw = new FileWriter(archivo);
           BufferedWriter bw = new BufferedWriter(fw);
-          bw.write("Hola que tal");
+          bw.write(contenido);
           bw.close();
+            System.out.println("El fichero se ha creado con exito");
 
         }catch (IOException e){
             System.out.println("No se ha leido el fichero, ERROR " + e.getMessage());

@@ -12,7 +12,7 @@ public class Ejer10 {
         File archivoParaBorrar = new File(archivo);
         if(archivoParaBorrar.exists()) {
             archivoParaBorrar.delete();
-            System.out.println("Se ha borrado el archivo");
+            System.out.println("Se ha borrado el archivo correctamente");
         }else {
             System.out.println("No se ha borrado el archivo ERROR");
         }

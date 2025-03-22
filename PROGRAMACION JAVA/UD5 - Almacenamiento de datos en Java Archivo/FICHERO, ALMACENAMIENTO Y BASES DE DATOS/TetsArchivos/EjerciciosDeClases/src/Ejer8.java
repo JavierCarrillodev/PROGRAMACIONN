@@ -8,9 +8,9 @@ import java.io.IOException;
 public class Ejer8 {
     public static void main(String[] args) {
 
-        ContarLineas("datos.txt", "Hola");
+        ContarLineas("datos.txt");
     }
-    public static void ContarLineas(String fichero, String tipo) {
+    public static void ContarLineas(String fichero) {
         int contador = 0;
 
         try {

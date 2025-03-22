@@ -5,7 +5,7 @@ import java.io.File;
  indicando si cada uno es un archivo o un directorio.*/
 public class Ejer11 {
     public static void main(String[] args) {
-        MostrarRuta(".");
+        MostrarRuta("");
     }
     public static void MostrarRuta(String ruta) {
 

@@ -14,6 +14,7 @@ public class Ejer2 {
             while ((character = br.read()) != -1) {
                 System.out.println((char) character);
             }
+            System.out.println("Se ha leido con exito con exito");
         } catch (IOException e) {
             System.out.println("Error reading file: " + e.getMessage());
         }

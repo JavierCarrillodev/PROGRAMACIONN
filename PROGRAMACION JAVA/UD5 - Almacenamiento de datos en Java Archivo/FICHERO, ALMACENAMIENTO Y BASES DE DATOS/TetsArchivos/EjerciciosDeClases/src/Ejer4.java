@@ -19,6 +19,7 @@ public class Ejer4 {
 
             fw.close();
 
+            System.out.println("Se ha agregado contenido con exito");
         } catch (IOException e) {
             System.out.println("Error" + e.getMessage());
 

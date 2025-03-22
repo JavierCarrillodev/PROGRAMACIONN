@@ -71,8 +71,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Ejer10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejer10" />
+    <configuration name="Ejer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejer1" />
       <module name="EjerciciosDeClases" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,10 +109,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Ejer1" />
         <item itemvalue="Application.Ejer6" />
         <item itemvalue="Application.Ejer11" />
         <item itemvalue="Application.Ejer9" />
-        <item itemvalue="Application.Ejer10" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +139,7 @@
       <workItem from="1742464171381" duration="93000" />
       <workItem from="1742464541828" duration="11092000" />
       <workItem from="1742490747994" duration="8385000" />
-      <workItem from="1742648652520" duration="7517000" />
+      <workItem from="1742648652520" duration="10963000" />
     </task>
     <servers />
   </component>

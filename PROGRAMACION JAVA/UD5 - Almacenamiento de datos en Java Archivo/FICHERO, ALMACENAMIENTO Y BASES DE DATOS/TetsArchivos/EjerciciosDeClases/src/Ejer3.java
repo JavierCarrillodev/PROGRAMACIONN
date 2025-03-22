@@ -21,7 +21,7 @@ public class Ejer3 {
                 System.out.print((char) caracter);
             }
             br.close();
-
+            System.out.println("Se ha leido con exito");
         }catch (IOException e){
             System.out.println("No se ha leido el fichero, ERROR " + e.getMessage());
         }
