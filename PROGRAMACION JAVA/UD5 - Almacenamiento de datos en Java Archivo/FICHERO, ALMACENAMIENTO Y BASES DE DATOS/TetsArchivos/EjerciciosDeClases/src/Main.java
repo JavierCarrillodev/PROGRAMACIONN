@@ -5,6 +5,7 @@ public class Main {
         Ejer3.LeerLineaPorLinea("datillos.txt");
         Ejer4.AgregarContenidoArchivo("datillos.txt","holaaaa");
         Ejer5.ContarPalabraArchivos("datillos.txt");
+        Ejer6.copiarArchivo("datos.txt","copiaDeDatos.txt");
         Ejer7.cantidadPalabras("datillos.txt", "Hola");
         Ejer9.RenombrarArchivos("ejemplo.txt","ejemplillo.txt");
         Ejer11.MostrarRuta(".");

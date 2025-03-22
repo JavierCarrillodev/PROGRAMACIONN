@@ -70,7 +70,7 @@
       <recent name="$PROJECT_DIR$/TetsArchivos/Ejercicios/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Ejer10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ejer10" />
       <module name="EjerciciosDeClases" />
@@ -85,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejer8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejer8" />
+    <configuration name="Ejer6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejer6" />
       <module name="EjerciciosDeClases" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,10 +109,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Ejer6" />
         <item itemvalue="Application.Ejer11" />
         <item itemvalue="Application.Ejer9" />
         <item itemvalue="Application.Ejer10" />
-        <item itemvalue="Application.Ejer8" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +139,7 @@
       <workItem from="1742464171381" duration="93000" />
       <workItem from="1742464541828" duration="11092000" />
       <workItem from="1742490747994" duration="8385000" />
-      <workItem from="1742648652520" duration="1978000" />
+      <workItem from="1742648652520" duration="2346000" />
     </task>
     <servers />
   </component>
