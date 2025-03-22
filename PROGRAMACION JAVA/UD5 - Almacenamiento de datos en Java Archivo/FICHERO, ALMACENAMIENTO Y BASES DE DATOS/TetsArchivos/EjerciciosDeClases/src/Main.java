@@ -23,7 +23,9 @@ public class Main {
                 System.out.println("9. Renombrar archivo");
                 System.out.println("10. Eliminar archivo");
                 System.out.println("11. Mostrar Ruta");
-                System.out.println("12. Salir del programa");
+                System.out.println("12. Leer un archivo CSV y mostrar los datos");
+                System.out.println("13. Copiar un archivo binario (imagen o vídeo)");
+                System.out.println("14. Salir del programa");
                 opciones = sc.nextInt();
                 sc.nextLine();
 
@@ -73,12 +75,20 @@ public class Main {
                         Ejer11.MostrarRuta(sc.next());
                         break;
                     case 12:
+                        System.out.println("Indica el archivo CSV para mostrar los datos");
+                        Ejer12.leerYMostrarCSV(sc.next());
+                        break;
+                    case 13:
+                        System.out.println("Indica el archivo para copiar la imagen o vídeo");
+                        Ejer13.copiarArchivoBinario(sc.next(), sc.next());
+                        break;
+                    case 14:
                         System.out.println("Saliendo...");
                         break;
                     default:
                         System.out.println("Opcion no valida");
                 }
 
-            } while (opciones != 12);
+            } while (opciones != 14);
     }
 }

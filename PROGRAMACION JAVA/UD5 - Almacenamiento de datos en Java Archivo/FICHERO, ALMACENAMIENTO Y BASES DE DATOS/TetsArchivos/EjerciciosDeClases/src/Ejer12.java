@@ -6,7 +6,7 @@ import java.io.IOException;
 public class Ejer12 {
     public static void main(String[] args) {
         // Ruta del archivo CSV
-        String archivoCSV = "datos.csv";
+        String archivoCSV = "";
 
         // Llamar al metodo para leer y mostrar los datos
         leerYMostrarCSV(archivoCSV);

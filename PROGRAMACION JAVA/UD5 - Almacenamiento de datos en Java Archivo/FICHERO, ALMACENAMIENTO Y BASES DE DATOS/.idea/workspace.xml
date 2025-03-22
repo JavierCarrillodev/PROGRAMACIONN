@@ -74,7 +74,7 @@
       <recent name="$PROJECT_DIR$/TetsArchivos/Ejercicios/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ejer13">
+  <component name="RunManager">
     <configuration name="EjemploBasicoBinario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploBasicoBinario" />
       <module name="FicheroBinarios" />
@@ -143,7 +143,7 @@
       <workItem from="1742464171381" duration="93000" />
       <workItem from="1742464541828" duration="11092000" />
       <workItem from="1742490747994" duration="8385000" />
-      <workItem from="1742648652520" duration="15421000" />
+      <workItem from="1742648652520" duration="16249000" />
     </task>
     <servers />
   </component>
