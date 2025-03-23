@@ -28,6 +28,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CaracterPorCaracter.executor": "Run",
+    "Application.CreandoArchivo.executor": "Run",
     "Application.CrearBorrar_FicheroyCarpetas.executor": "Run",
     "Application.EjemploBasicoBinario.executor": "Run",
     "Application.EjemploBinario.executor": "Run",
@@ -74,7 +75,14 @@
       <recent name="$PROJECT_DIR$/TetsArchivos/Ejercicios/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CreandoArchivo">
+    <configuration name="CreandoArchivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreandoArchivo" />
+      <module name="Repaso archivos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EjemploBasicoBinario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploBasicoBinario" />
       <module name="FicheroBinarios" />
@@ -96,13 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejer6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejer6" />
-      <module name="EjerciciosDeClases" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="EjerciciosDeClases" />
@@ -112,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreandoArchivo" />
         <item itemvalue="Application.Ejer13" />
         <item itemvalue="Application.EjemploBasicoBinario" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Ejer1" />
-        <item itemvalue="Application.Ejer6" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +144,8 @@
       <workItem from="1742464171381" duration="93000" />
       <workItem from="1742464541828" duration="11092000" />
       <workItem from="1742490747994" duration="8385000" />
-      <workItem from="1742648652520" duration="16249000" />
+      <workItem from="1742648652520" duration="16313000" />
+      <workItem from="1742744684785" duration="1809000" />
     </task>
     <servers />
   </component>
