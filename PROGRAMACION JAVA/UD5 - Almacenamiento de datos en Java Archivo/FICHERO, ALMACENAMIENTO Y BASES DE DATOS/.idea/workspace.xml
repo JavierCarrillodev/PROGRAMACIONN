@@ -30,6 +30,7 @@
     "Application.CaracterPorCaracter.executor": "Run",
     "Application.CreandoArchivo.executor": "Run",
     "Application.CrearBorrar_FicheroyCarpetas.executor": "Run",
+    "Application.CrearFicheroYDirectorio.executor": "Run",
     "Application.EjemploBasicoBinario.executor": "Run",
     "Application.EjemploBinario.executor": "Run",
     "Application.EjemploDeserializacion.executor": "Run",
@@ -151,7 +152,8 @@
       <workItem from="1742648652520" duration="16313000" />
       <workItem from="1742744684785" duration="5965000" />
       <workItem from="1742809595001" duration="3742000" />
-      <workItem from="1742815996186" duration="2283000" />
+      <workItem from="1742815996186" duration="2979000" />
+      <workItem from="1742847299586" duration="1042000" />
     </task>
     <servers />
   </component>
