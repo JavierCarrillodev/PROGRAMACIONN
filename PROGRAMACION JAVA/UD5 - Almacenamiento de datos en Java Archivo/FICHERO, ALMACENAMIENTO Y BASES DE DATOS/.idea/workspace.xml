@@ -56,6 +56,8 @@
     "Application.EjercicioBufferWriter.executor": "Run",
     "Application.EjercicioNombres.executor": "Run",
     "Application.FileReader.executor": "Run",
+    "Application.LectorArchivo.executor": "Run",
+    "Application.Leer.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PuebaClaseFile.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -85,13 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploBasicoBinario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploBasicoBinario" />
-      <module name="FicheroBinarios" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EjemploDeserializacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploDeserializacion" />
       <module name="Serializacion" />
@@ -113,15 +108,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Leer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leer" />
+      <module name="EjerciciosDeClases" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leer" />
         <item itemvalue="Application.EjemploDeserializacion" />
         <item itemvalue="Application.EjemploSerializacion" />
         <item itemvalue="Application.CreandoArchivo" />
         <item itemvalue="Application.Ejer13" />
-        <item itemvalue="Application.EjemploBasicoBinario" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -139,7 +149,9 @@
       <workItem from="1742464541828" duration="11092000" />
       <workItem from="1742490747994" duration="8385000" />
       <workItem from="1742648652520" duration="16313000" />
-      <workItem from="1742744684785" duration="5752000" />
+      <workItem from="1742744684785" duration="5965000" />
+      <workItem from="1742809595001" duration="3742000" />
+      <workItem from="1742815996186" duration="2283000" />
     </task>
     <servers />
   </component>

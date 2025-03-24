@@ -22,11 +22,11 @@ public class Ejer12 {
                 // Separar cada línea por comas
                 String[] datos = linea.split(",");
 
-                // Mostrar los datos en formato tabla
+                // Mostramos los datos en formato tabla
                 for (String dato : datos) {
-                    System.out.printf("%-20s", dato); // Alineación de 20 caracteres para cada columna
+                    System.out.printf(dato);
                 }
-                System.out.println(); // Salto de línea para la siguiente fila
+                System.out.println();
             }
 
         } catch (IOException e) {
