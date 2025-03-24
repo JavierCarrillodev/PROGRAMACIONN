@@ -30,6 +30,7 @@
     "Application.CaracterPorCaracter.executor": "Run",
     "Application.CreandoArchivo.executor": "Run",
     "Application.CrearBorrar_FicheroyCarpetas.executor": "Run",
+    "Application.CrearFicheroRuta.executor": "Run",
     "Application.CrearFicheroYDirectorio.executor": "Run",
     "Application.EjemploBasicoBinario.executor": "Run",
     "Application.EjemploBinario.executor": "Run",
@@ -80,10 +81,17 @@
       <recent name="$PROJECT_DIR$/TetsArchivos/Ejercicios/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CrearFicheroRuta">
     <configuration name="CreandoArchivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreandoArchivo" />
       <module name="Repaso archivos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrearFicheroRuta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CrearFicheroRuta" />
+      <module name="EjerciciosDeClases" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,13 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejer13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejer13" />
-      <module name="EjerciciosDeClases" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Leer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leer" />
       <module name="EjerciciosDeClases" />
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CrearFicheroRuta" />
         <item itemvalue="Application.Leer" />
         <item itemvalue="Application.EjemploDeserializacion" />
         <item itemvalue="Application.EjemploSerializacion" />
         <item itemvalue="Application.CreandoArchivo" />
-        <item itemvalue="Application.Ejer13" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +154,7 @@
       <workItem from="1742744684785" duration="5965000" />
       <workItem from="1742809595001" duration="3742000" />
       <workItem from="1742815996186" duration="2979000" />
-      <workItem from="1742847299586" duration="1042000" />
+      <workItem from="1742847299586" duration="2215000" />
     </task>
     <servers />
   </component>
