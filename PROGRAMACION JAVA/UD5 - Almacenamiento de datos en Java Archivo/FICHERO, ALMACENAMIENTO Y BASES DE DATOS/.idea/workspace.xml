@@ -34,6 +34,7 @@
     "Application.CrearFicheroYDirectorio.executor": "Run",
     "Application.EjemploBasicoBinario.executor": "Run",
     "Application.EjemploBinario.executor": "Run",
+    "Application.EjemploBunariosNio.executor": "Run",
     "Application.EjemploDeserializacion.executor": "Run",
     "Application.EjemploFileReader.executor": "Run",
     "Application.EjemploFileWriter.executor": "Run",
@@ -41,6 +42,7 @@
     "Application.EjemploPrintWriter2.executor": "Run",
     "Application.EjemploScanner.executor": "Run",
     "Application.EjemploSerializacion.executor": "Run",
+    "Application.EjemploTextoNio.executor": "Run",
     "Application.Ejer1.executor": "Run",
     "Application.Ejer10.executor": "Run",
     "Application.Ejer11.executor": "Run",
@@ -81,17 +83,17 @@
       <recent name="$PROJECT_DIR$/TetsArchivos/Ejercicios/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CrearFicheroRuta">
-    <configuration name="CreandoArchivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreandoArchivo" />
-      <module name="Repaso archivos" />
+  <component name="RunManager" selected="Application.EjemploBunariosNio">
+    <configuration name="CrearFicheroRuta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CrearFicheroRuta" />
+      <module name="EjerciciosDeClases" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrearFicheroRuta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CrearFicheroRuta" />
-      <module name="EjerciciosDeClases" />
+    <configuration name="EjemploBunariosNio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemploBunariosNio" />
+      <module name="JAVA.NIO" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploBunariosNio" />
         <item itemvalue="Application.CrearFicheroRuta" />
         <item itemvalue="Application.Leer" />
         <item itemvalue="Application.EjemploDeserializacion" />
         <item itemvalue="Application.EjemploSerializacion" />
-        <item itemvalue="Application.CreandoArchivo" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +156,9 @@
       <workItem from="1742744684785" duration="5965000" />
       <workItem from="1742809595001" duration="3742000" />
       <workItem from="1742815996186" duration="2979000" />
-      <workItem from="1742847299586" duration="2215000" />
+      <workItem from="1742847299586" duration="2573000" />
+      <workItem from="1742896424960" duration="3992000" />
+      <workItem from="1742933902341" duration="2554000" />
     </task>
     <servers />
   </component>
