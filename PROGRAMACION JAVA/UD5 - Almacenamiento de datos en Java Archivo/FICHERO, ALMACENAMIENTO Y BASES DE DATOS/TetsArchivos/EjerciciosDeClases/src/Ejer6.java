@@ -20,12 +20,12 @@ public class Ejer6 {
     public static void copiarArchivo(String archivoOrigen, String archivoDestino) {
         try {
             // Crear FileReader y BufferedReader para leer el archivo origen
-            FileReader fr = new FileReader(archivoOrigen);
-            BufferedReader br = new BufferedReader(fr);
+
+            BufferedReader br = new BufferedReader(new FileReader(archivoOrigen));
 
             // Crear FileWriter y BufferedWriter para escribir en el archivo destino
-            FileWriter fw = new FileWriter(archivoDestino);
-            BufferedWriter bw = new BufferedWriter(fw);
+
+            BufferedWriter bw = new BufferedWriter(new FileWriter(archivoDestino));
 
             // Leer y escribir línea por línea
             String linea;

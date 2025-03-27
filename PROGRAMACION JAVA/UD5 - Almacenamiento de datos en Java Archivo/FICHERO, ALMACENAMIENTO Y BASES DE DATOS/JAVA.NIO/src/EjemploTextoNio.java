@@ -15,7 +15,8 @@ public class EjemploTextoNio {
             Path fichero = Paths.get("archivoNIO.txt");
 
             //Escribe las líneas en el archivo
-            Files.write(fichero, lineasEscritas, StandardCharsets.UTF_8);
+            Files.write(fichero, lineasEscritas);
+            System.out.println("Archivo guardado exitosamente");
 
             //Lee todas las líneas del archivo
             List<String> lineasLeidas = Files.readAllLines(fichero, StandardCharsets.UTF_8);
