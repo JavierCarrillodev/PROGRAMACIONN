@@ -9,9 +9,11 @@ public class EjemploSerializacion {
             Grupo dam = new Grupo("1DAM");
             dam.agregarAlumno(new Alumno("Javi","234234", 21));
             dam.agregarAlumno(new Alumno("nevado","1134", 15));
+            Persona persona= new Persona("javier",21);
 
             FileOutputStream fos = new FileOutputStream("alumnos.dat");
             ObjectOutputStream out = new ObjectOutputStream(fos);
+
             out.writeObject(dam);
             out.writeInt(23);
             out.writeObject(new Alumno("Victoria","1134V", 19));
