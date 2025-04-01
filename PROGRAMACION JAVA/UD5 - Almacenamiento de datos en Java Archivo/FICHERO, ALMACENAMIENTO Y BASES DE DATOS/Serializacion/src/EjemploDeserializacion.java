@@ -13,6 +13,9 @@ public class EjemploDeserializacion {
             System.out.println("El entero es: " + (int)in.readInt());
             System.out.println((Alumno) in.readObject());
 
+
+
+
             in.close();
         }catch (ClassNotFoundException e){
             e.printStackTrace();

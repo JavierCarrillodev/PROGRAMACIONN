@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Dockerfile" />
         <option value="Class" />
       </list>
     </option>
@@ -25,68 +26,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CaracterPorCaracter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreandoArchivo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CrearBorrar_FicheroyCarpetas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CrearFicheroRuta.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CrearFicheroYDirectorio.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjemploBasicoBinario.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjemploBinario.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjemploBunariosNio.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjemploDeserializacion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjemploFileReader.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjemploFileWriter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjemploPrintWriter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjemploPrintWriter2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjemploScanner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjemploSerializacion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjemploTextoNio.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejer1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejer10.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejer11.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejer12.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejer13.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejer2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejer2_NIO.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejer3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejer4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejer5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejer6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejer7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejer8.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejer9.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjercicioBufferReader.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjercicioBufferWriter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjercicioNombres.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileReader.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LectorArchivo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Leer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeerImagen.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NArchivos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PuebaClaseFile.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CaracterPorCaracter.executor": "Run",
+    "Application.CreandoArchivo.executor": "Run",
+    "Application.CrearBorrar_FicheroyCarpetas.executor": "Run",
+    "Application.CrearFicheroRuta.executor": "Run",
+    "Application.CrearFicheroYDirectorio.executor": "Run",
+    "Application.EjemploBasicoBinario.executor": "Run",
+    "Application.EjemploBinario.executor": "Run",
+    "Application.EjemploBunariosNio.executor": "Run",
+    "Application.EjemploDeserializacion.executor": "Run",
+    "Application.EjemploFileReader.executor": "Run",
+    "Application.EjemploFileWriter.executor": "Run",
+    "Application.EjemploPrintWriter.executor": "Run",
+    "Application.EjemploPrintWriter2.executor": "Run",
+    "Application.EjemploScanner.executor": "Run",
+    "Application.EjemploSerializacion.executor": "Run",
+    "Application.EjemploTextoNio.executor": "Run",
+    "Application.Ejer1.executor": "Run",
+    "Application.Ejer10.executor": "Run",
+    "Application.Ejer11.executor": "Run",
+    "Application.Ejer12.executor": "Run",
+    "Application.Ejer13.executor": "Run",
+    "Application.Ejer2.executor": "Run",
+    "Application.Ejer2_NIO.executor": "Run",
+    "Application.Ejer3 (1).executor": "Run",
+    "Application.Ejer3.executor": "Run",
+    "Application.Ejer4.executor": "Run",
+    "Application.Ejer5.executor": "Run",
+    "Application.Ejer6.executor": "Run",
+    "Application.Ejer7.executor": "Run",
+    "Application.Ejer8.executor": "Run",
+    "Application.Ejer9.executor": "Run",
+    "Application.EjercicioBufferReader.executor": "Run",
+    "Application.EjercicioBufferWriter.executor": "Run",
+    "Application.EjercicioFichero2.executor": "Run",
+    "Application.EjercicioNombres.executor": "Run",
+    "Application.FileReader.executor": "Run",
+    "Application.LectorArchivo.executor": "Run",
+    "Application.Leer.executor": "Run",
+    "Application.LeerImagen.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NArchivos.executor": "Run",
+    "Application.PuebaClaseFile.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/EjerciciosGenerales/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/TetsArchivos/src" />
       <recent name="$PROJECT_DIR$/TetsArchivos/Ejercicios/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Ejer3 (1)">
     <configuration name="CrearFicheroRuta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CrearFicheroRuta" />
       <module name="EjerciciosDeClases" />
@@ -101,9 +108,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploDeserializacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploDeserializacion" />
-      <module name="Serializacion" />
+    <configuration name="Ejer3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejer3" />
+      <module name="EjerciciosGenerales" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejer3 (1)" />
         <item itemvalue="Application.Ejer3" />
         <item itemvalue="Application.EjemploBunariosNio" />
         <item itemvalue="Application.CrearFicheroRuta" />
         <item itemvalue="Application.Leer" />
-        <item itemvalue="Application.EjemploDeserializacion" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +172,10 @@
       <workItem from="1742991483194" duration="5982000" />
       <workItem from="1743001844002" duration="97000" />
       <workItem from="1743069488555" duration="4919000" />
-      <workItem from="1743410510835" duration="1996000" />
+      <workItem from="1743410510835" duration="7614000" />
+      <workItem from="1743425047518" duration="656000" />
+      <workItem from="1743496580846" duration="4472000" />
+      <workItem from="1743532842990" duration="2419000" />
     </task>
     <servers />
   </component>
