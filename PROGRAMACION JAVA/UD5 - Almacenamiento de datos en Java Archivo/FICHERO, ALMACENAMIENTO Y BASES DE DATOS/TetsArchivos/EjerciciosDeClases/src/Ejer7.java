@@ -14,7 +14,8 @@ public class Ejer7 {
             while (sc.hasNextLine()) {
                 String[] palabrasLinea = sc.nextLine().split(" ");
                 for (String palabraActual :palabrasLinea) {
-                    if (palabraActual.equals(palabraBuscada)){
+                    palabraActual = palabraActual.replaceAll("[^a-zA-Z]", "").toLowerCase();
+                    if (palabraActual.equals(palabraBuscada.toLowerCase())) {
                         contador++;
                     }
                 }
