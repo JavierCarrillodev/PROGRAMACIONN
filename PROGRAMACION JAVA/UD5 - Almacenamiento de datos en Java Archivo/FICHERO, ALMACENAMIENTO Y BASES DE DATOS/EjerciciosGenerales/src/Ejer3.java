@@ -9,6 +9,7 @@ import java.util.List;
 public class Ejer3 {
     public static void main(String[] args) {
         String archivoOrigen = "/home/javi/Documentos/Javi/1DAM/PROGRAMACIÓN/UD5 - Almacenamiento de datos en Java Archivo/FICHERO, ALMACENAMIENTO Y BASES DE DATOS/EjerciciosGenerales/src/usa_personas.txt";
+
         String archivoDestino ="/home/javi/Documentos/Javi/1DAM/PROGRAMACIÓN/UD5 - Almacenamiento de datos en Java Archivo/FICHERO, ALMACENAMIENTO Y BASES DE DATOS/EjerciciosGenerales/src/usa_personas_sorted.txt";
         try {
             //Leemos el archivo
