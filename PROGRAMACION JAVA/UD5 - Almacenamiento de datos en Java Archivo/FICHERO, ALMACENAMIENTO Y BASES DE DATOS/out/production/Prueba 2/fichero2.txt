@@ -1,0 +1,7 @@
+Esto es un ejemplo sin salto de lineaNUEVA PALABRA
+Esto es un ejemplo con salto de linea
+4.555
+6
+8
+20
+Esto es otra prueba pero con otro fichero
