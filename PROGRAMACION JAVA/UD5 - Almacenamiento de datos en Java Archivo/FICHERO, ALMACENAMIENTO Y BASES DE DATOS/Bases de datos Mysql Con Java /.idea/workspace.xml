@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c547e2b-82a2-493f-ad2a-5103fbc719e9" name="Changes" comment="" />
+    <list default="true" id="46cb9000-4cdd-4827-94f9-a996176905b2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2w58PxV9qTdM9WQvzDDg6dXeebj" />
+  <component name="ProjectId" id="2w65riwdQExL3hGAYXlOiDuzhIp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,38 +21,32 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.workbrench.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/home/javi/Documentos/Javi/1DAM/PROGRAMACIÓN/PROGRAMACIÓN JAVA/Bases de datos Mysql Con Java ",
+    "last_opened_file_path": "/home/javi/Documentos/Javi/1DAM/PROGRAMACIÓN/UD5 - Almacenamiento de datos en Java Archivo/FICHERO, ALMACENAMIENTO Y BASES DE DATOS/Bases de datos Mysql Con Java /BaseDeDatoss/src/mysql-connector-j-8.0.33.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "onboarding.tips.debug.path": "/home/javi/Documentos/Javi/1DAM/PROGRAMACIÓN/PROGRAMACIÓN JAVA/Bases de datos Mysql Con Java /bases/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="workbrench" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="workbrench" />
-      <module name="EjerciciosGenerales" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.workbrench" />
-      </list>
-    </recent_temporary>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BaseDeDatoss/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/BaseDeDatoss/src" />
+      <recent name="$PROJECT_DIR$/BaseDeDatos" />
+      <recent name="$PROJECT_DIR$/BaseDeDatos/src" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -71,20 +58,31 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6c547e2b-82a2-493f-ad2a-5103fbc719e9" name="Changes" comment="" />
-      <created>1745320053927</created>
+      <changelist id="46cb9000-4cdd-4827-94f9-a996176905b2" name="Changes" comment="" />
+      <created>1745349383699</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1745320053927</updated>
-      <workItem from="1745320055132" duration="498000" />
-      <workItem from="1745345976496" duration="3101000" />
-      <workItem from="1745349982120" duration="49000" />
-      <workItem from="1745350624087" duration="47000" />
-      <workItem from="1745351627079" duration="53000" />
+      <updated>1745349383699</updated>
+      <workItem from="1745349384756" duration="597000" />
+      <workItem from="1745350031740" duration="107000" />
+      <workItem from="1745350160755" duration="463000" />
+      <workItem from="1745350770392" duration="458000" />
+      <workItem from="1745351357022" duration="269000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bases/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

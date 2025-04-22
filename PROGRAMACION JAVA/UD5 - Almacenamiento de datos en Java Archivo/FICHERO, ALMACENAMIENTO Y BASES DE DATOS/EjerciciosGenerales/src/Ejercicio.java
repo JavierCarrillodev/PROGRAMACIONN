@@ -8,7 +8,7 @@
  5. Mostrar en consola los datos
  */
 
-
+/*
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
@@ -39,3 +39,4 @@ public class Ejercicio {
         }
     }
 }
+*/

@@ -84,7 +84,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/javi/Documentos/Javi/1DAM/PROGRAMACIÓN/UD5 - Almacenamiento de datos en Java Archivo/FICHERO, ALMACENAMIENTO Y BASES DE DATOS/EjerciciosGenerales/src/mysql-connector-j-8.0.33.jar",
+    "last_opened_file_path": "/home/javi/Documentos/Javi/1DAM/PROGRAMACIÓN/UD5 - Almacenamiento de datos en Java Archivo/FICHERO, ALMACENAMIENTO Y BASES DE DATOS/Bases De Datos/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,6 +99,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Bases De Datos/src" />
       <recent name="$PROJECT_DIR$/EjerciciosGenerales/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -109,7 +110,7 @@
       <recent name="$PROJECT_DIR$/TetsArchivos/Ejercicios/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CrearFicheroRuta">
     <configuration name="CrearFicheroRuta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CrearFicheroRuta" />
       <module name="EjerciciosDeClases" />
@@ -196,6 +197,7 @@
       <workItem from="1744015818327" duration="4391000" />
       <workItem from="1745226226534" duration="5540000" />
       <workItem from="1745311190273" duration="6976000" />
+      <workItem from="1745349079778" duration="304000" />
     </task>
     <servers />
   </component>
