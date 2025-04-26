@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BaseDeDatoss/BaseDeDatoss.iml" filepath="$PROJECT_DIR$/BaseDeDatoss/BaseDeDatoss.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Bases de datos Mysql Con Java .iml" filepath="$PROJECT_DIR$/.idea/Bases de datos Mysql Con Java .iml" />
-      <module fileurl="file://$PROJECT_DIR$/EjercicioAgenda/EjercicioAgenda.iml" filepath="$PROJECT_DIR$/EjercicioAgenda/EjercicioAgenda.iml" />
     </modules>
   </component>
 </project>
