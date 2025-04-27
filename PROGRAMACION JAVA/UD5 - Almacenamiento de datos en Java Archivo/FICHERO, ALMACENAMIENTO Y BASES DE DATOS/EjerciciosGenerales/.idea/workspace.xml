@@ -41,8 +41,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
@@ -81,6 +81,7 @@
       <workItem from="1745349982120" duration="49000" />
       <workItem from="1745350624087" duration="47000" />
       <workItem from="1745351627079" duration="53000" />
+      <workItem from="1745779241996" duration="150000" />
     </task>
     <servers />
   </component>

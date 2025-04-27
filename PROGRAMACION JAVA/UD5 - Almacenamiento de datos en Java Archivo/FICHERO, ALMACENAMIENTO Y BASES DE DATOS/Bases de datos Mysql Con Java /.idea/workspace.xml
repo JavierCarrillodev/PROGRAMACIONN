@@ -27,6 +27,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Agenda.executor": "Run",
     "Application.Insert.executor": "Run",
     "Application.workbrench.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
@@ -37,21 +38,22 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/home/javi/Documentos/Javi/1DAM/PROGRAMACIÓN/UD5 - Almacenamiento de datos en Java Archivo/FICHERO, ALMACENAMIENTO Y BASES DE DATOS/Bases de datos Mysql Con Java /EjercicioAgenda/src/mysql-connector-j-8.0.33.jar",
+    "last_opened_file_path": "/home/javi/Documentos/Javi/1DAM/PROGRAMACIÓN/UD5 - Almacenamiento de datos en Java Archivo/FICHERO, ALMACENAMIENTO Y BASES DE DATOS/Bases de datos Mysql Con Java /EjercicioAgenda/mysql-connector-j-8.0.33.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/javi/Documentos/Javi/1DAM/PROGRAMACIÓN/UD5 - Almacenamiento de datos en Java Archivo/FICHERO, ALMACENAMIENTO Y BASES DE DATOS/Bases de datos Mysql Con Java /EjercicioAgenda/src/Main.java",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.07272727",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/EjercicioAgenda" />
       <recent name="$PROJECT_DIR$/EjercicioAgenda/src" />
       <recent name="$PROJECT_DIR$/BaseDeDatoss/src" />
     </key>
@@ -86,6 +88,8 @@
       <workItem from="1745437596484" duration="2931000" />
       <workItem from="1745484366131" duration="221000" />
       <workItem from="1745495855490" duration="3053000" />
+      <workItem from="1745778273899" duration="967000" />
+      <workItem from="1745779393149" duration="3008000" />
     </task>
     <servers />
   </component>
