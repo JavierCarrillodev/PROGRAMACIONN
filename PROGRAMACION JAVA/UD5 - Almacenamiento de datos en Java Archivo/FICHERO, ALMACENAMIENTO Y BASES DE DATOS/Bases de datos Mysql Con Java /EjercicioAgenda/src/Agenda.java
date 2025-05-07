@@ -1,8 +1,4 @@
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
@@ -24,7 +20,8 @@ public class Agenda {
                     "\n2. Eliminar contacto" +
                     "\n3. Buscar contacto" +
                     "\n4. Listar todos los contactos" +
-                    "\n5. Guardar y salir.");
+                    "\n5. Recuperar contacto" +
+                    "\n6. Guardar y salir.");
             System.out.println("Elige una opción:");
             opcion = sc.nextInt();
             sc.nextLine();
@@ -49,8 +46,12 @@ public class Agenda {
                     Contacto.listarTodosContactos(contactos);
 
                     break;
-
                 case 5:
+                    contactos = Contacto.recuperarContactos(archivoJSON);
+                    System.out.println("Contactos recuperados con exito");
+                    break;
+
+                case 6:
                     Contacto.guardarJSON(contactos, archivoJSON);
 
                     System.out.println("Saliendo del programa...");
@@ -59,7 +60,7 @@ public class Agenda {
                 default:
                     System.out.println("Opción no válida.");
             }
-        }while (opcion != 5);
+        }while (opcion != 6);
 
     }
     

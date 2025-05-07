@@ -123,7 +123,6 @@ public class Contacto {
     }
 
     public static void guardarJSON(List<Contacto> contactos, File archivoJSON){
-        Scanner sc = new Scanner(System.in);
         ObjectMapper mapper = new ObjectMapper();
 
 

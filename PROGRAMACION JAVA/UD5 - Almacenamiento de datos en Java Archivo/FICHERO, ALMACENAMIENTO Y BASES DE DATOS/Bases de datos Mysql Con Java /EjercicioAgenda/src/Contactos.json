@@ -2,4 +2,8 @@
   "nombre" : "nevado",
   "telefono" : 2342,
   "email" : "nevadito@1231"
+}, {
+  "nombre" : "nevado",
+  "telefono" : 123456,
+  "email" : "nevadito@gmail.com"
 } ]
