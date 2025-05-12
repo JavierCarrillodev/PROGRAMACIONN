@@ -2,7 +2,7 @@ import java.io.*;
 
 public class repasoReader {
     public static void main(String[] args) {
-
+        //Crear carpeta
         File carpeta = new File("DIRECTORIO");
         if (!carpeta.exists()) {
             carpeta.mkdir();
@@ -11,6 +11,7 @@ public class repasoReader {
             System.out.println("La carpeta ya existe");
         }
 
+        //Crear fichero
         String fichero = "DIRECTORIO/FICHERODENTRO.txt";
         String texto = "Buenas noches\n";
 
@@ -25,7 +26,7 @@ public class repasoReader {
             System.out.println("ERROR");
         }
 
-
+        //Leer ficheros
         try {
             FileReader fileReader = new FileReader(fichero);
 

@@ -29,7 +29,8 @@ public class CrearArchivos {
 
         File directorio2 = new File("ruta");
         String[] archivos = directorio2.list();
-        if (archivos != null) for (String a : archivos){
+        if (archivos != null)
+            for (String a : archivos){
             System.out.println(a);
         }else {
             System.out.println("No hay archivos en esta carpeta");

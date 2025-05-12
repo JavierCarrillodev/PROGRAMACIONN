@@ -14,7 +14,8 @@ public class ListarArchivosySubcarpetas {
                 if (archivo.isFile()){
                     System.out.println(archivo.getPath());
                 }else if (archivo.isDirectory()) {
-                    listarArchivos(archivo);}
+                    listarArchivos(archivo);
+                }
             }
         }
     }

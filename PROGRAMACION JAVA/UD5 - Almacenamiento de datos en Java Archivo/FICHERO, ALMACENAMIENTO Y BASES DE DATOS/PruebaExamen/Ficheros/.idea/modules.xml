@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CRUD-PERSISTENCIA/CRUD-PERSISTENCIA.iml" filepath="$PROJECT_DIR$/CRUD-PERSISTENCIA/CRUD-PERSISTENCIA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Crud/Crud.iml" filepath="$PROJECT_DIR$/Crud/Crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosAulaEnLaNube/EjerciciosAulaEnLaNube.iml" filepath="$PROJECT_DIR$/EjerciciosAulaEnLaNube/EjerciciosAulaEnLaNube.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosFicheros/EjerciciosFicheros.iml" filepath="$PROJECT_DIR$/EjerciciosFicheros/EjerciciosFicheros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosTorretas/EjerciciosTorretas.iml" filepath="$PROJECT_DIR$/EjerciciosTorretas/EjerciciosTorretas.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ficheros.iml" filepath="$PROJECT_DIR$/Ficheros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ficheros.txtDeEjercicios/Ficheros.txtDeEjercicios.iml" filepath="$PROJECT_DIR$/Ficheros.txtDeEjercicios/Ficheros.txtDeEjercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Json/Json.iml" filepath="$PROJECT_DIR$/Json/Json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Repaso/Repaso.iml" filepath="$PROJECT_DIR$/Repaso/Repaso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Serializar_Y_Deserializar/Serializar_Y_Deserializar.iml" filepath="$PROJECT_DIR$/Serializar_Y_Deserializar/Serializar_Y_Deserializar.iml" />
     </modules>
   </component>
 </project>
