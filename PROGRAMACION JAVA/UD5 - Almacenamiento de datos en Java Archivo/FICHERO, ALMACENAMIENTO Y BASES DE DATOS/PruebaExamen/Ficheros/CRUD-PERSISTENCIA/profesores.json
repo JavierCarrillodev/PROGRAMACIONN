@@ -1,5 +1,13 @@
 [ {
+  "id" : 1,
+  "nombre" : "javi",
+  "edad" : 21
+}, {
+  "id" : 3,
+  "nombre" : "javi",
+  "edad" : 21
+}, {
   "id" : 2,
-  "nombre" : "pepe",
-  "edad" : 32
+  "nombre" : "oscar",
+  "edad" : 18
 } ]

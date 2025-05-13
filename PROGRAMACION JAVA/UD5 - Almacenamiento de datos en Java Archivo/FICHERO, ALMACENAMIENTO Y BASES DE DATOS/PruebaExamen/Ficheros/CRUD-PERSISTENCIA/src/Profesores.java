@@ -1,7 +1,10 @@
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.File;
+import java.io.PrintWriter;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -52,16 +55,16 @@ public class Profesores {
                 '}';
     }
 
+    // Cosas para crear la persistencia
     private ArrayList<Profesores> profesores = new ArrayList<>();
     private String archivo = "CRUD-PERSISTENCIA/profesores.json";
     private ObjectMapper mapper = new ObjectMapper();
     private Scanner sc = new Scanner(System.in);
 
-    //Cargar profesores
     public void cargarProfesores(){
         File file = new File(archivo);
         if (file.exists()){
-            try {
+            try{
                 profesores = mapper.readValue(file, new TypeReference<ArrayList<Profesores>>() {
                 });
 
@@ -71,12 +74,14 @@ public class Profesores {
         }
     }
 
-    //Guardar JSON
-    public  void guardarProfesores(){
-        try {
+    public void guardarProfesores(){
+        try{
+            mapper.enable(SerializationFeature.INDENT_OUTPUT);
             mapper.writerWithDefaultPrettyPrinter().writeValue(new File(archivo),profesores);
-        }catch (Exception e) {
+
+        } catch (Exception e) {
             System.out.println("Error");
+
         }
     }
     //Crear profesores
@@ -104,6 +109,18 @@ public class Profesores {
             System.out.println(profesor);
         }
         System.out.println();
+    }
+
+    public void buscarPorNombre(){
+        System.out.println("Introduce el nombre del profesor que quieras buscar");
+        String nombre = sc.nextLine();
+        for (Profesores profesor:profesores){
+            if (profesor.getNombre().equalsIgnoreCase(nombre)){
+                System.out.println("Profesor buscado: " + nombre + " con id " + profesor.getId() +  " y edad " + profesor.getEdad() + " años");
+                return;
+            }
+        }
+        System.out.println("Nombre no encontrado");
     }
 
     //Actualizar Profesores

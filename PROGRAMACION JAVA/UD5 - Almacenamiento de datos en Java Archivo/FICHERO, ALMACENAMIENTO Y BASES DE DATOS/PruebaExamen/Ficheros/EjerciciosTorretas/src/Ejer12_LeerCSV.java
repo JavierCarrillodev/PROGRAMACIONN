@@ -20,8 +20,12 @@ public class Ejer12_LeerCSV {
             BufferedReader br = new BufferedReader(new FileReader(archivocsv));
             String linea;
             while ((linea = br.readLine()) != null){
-                String[] campos = linea.split(",");
-                System.out.println(campos[0] + "," + campos[1]);
+                String[] datos = linea.split(",");
+                for (String campo : datos) {
+                    System.out.printf("%-15s", campo); // 15 espacios alineados a la izquierda
+                }
+                System.out.println(); // Nueva línea por fila
+
             }
             br.close();
 

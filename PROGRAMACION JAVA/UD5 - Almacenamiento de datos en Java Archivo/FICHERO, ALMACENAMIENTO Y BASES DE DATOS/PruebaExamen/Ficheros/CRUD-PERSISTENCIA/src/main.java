@@ -13,7 +13,8 @@ public class main {
             System.out.println("2. Leer Profesores");
             System.out.println("3. Actualizar Profesor");
             System.out.println("4. Eliminar Profesor");
-            System.out.println("5.Salir y guardar");
+            System.out.println("5. Buscar Profesor");
+            System.out.println("6.Salir y guardar");
             System.out.println("Elige una opcion");
             opcion = sc.nextInt();
 
@@ -31,10 +32,13 @@ public class main {
                     profesores.eliminarProfesor();
                     break;
                 case 5:
+                    profesores.buscarPorNombre();
+                    break;
+                case 6:
                     System.out.println("Saliendo y guardando...");
                     default:
             }
 
-        }while (opcion != 5);
+        }while (opcion != 6);
     }
 }
