@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/Json/Json.iml" filepath="$PROJECT_DIR$/Json/Json.iml" />
       <module fileurl="file://$PROJECT_DIR$/Repaso/Repaso.iml" filepath="$PROJECT_DIR$/Repaso/Repaso.iml" />
       <module fileurl="file://$PROJECT_DIR$/Serializar_Y_Deserializar/Serializar_Y_Deserializar.iml" filepath="$PROJECT_DIR$/Serializar_Y_Deserializar/Serializar_Y_Deserializar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio8/resources/explorador/explorador.iml" filepath="$PROJECT_DIR$/Ejercicio8/resources/explorador/explorador.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio8/resources/resources.iml" filepath="$PROJECT_DIR$/Ejercicio8/resources/resources.iml" />
     </modules>
   </component>
 </project>

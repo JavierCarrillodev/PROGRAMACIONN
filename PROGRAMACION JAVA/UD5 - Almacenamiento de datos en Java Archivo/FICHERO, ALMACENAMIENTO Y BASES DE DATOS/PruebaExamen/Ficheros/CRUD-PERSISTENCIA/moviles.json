@@ -1,0 +1,9 @@
+[ {
+  "id" : 1,
+  "propietario" : "javi",
+  "robado" : false
+}, {
+  "id" : 2,
+  "propietario" : "OSCAR",
+  "robado" : true
+} ]

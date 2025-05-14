@@ -1,7 +1,6 @@
-import javax.annotation.processing.Filer;
 import java.io.*;
 
-public class repaso {
+public class metodos {
     public static void main(String[] args) {
         File archivo = new File("/home/javi/Escritorio/PruebaExamen/Ficheros/EjerciciosFicheros/src/hola.txt");
         try{
