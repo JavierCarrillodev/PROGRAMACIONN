@@ -1,21 +1,20 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 public class json {
     public static void main(String[] args) {
 
         try{
             ObjectMapper mapper = new ObjectMapper();
+            List<Persona>personas = new ArrayList<>();
+            personas.add(new Persona("Javi",21));
+            personas.add(new Persona("oscar",19));
 
-            Persona persona = new Persona("javi",22);
 
-            mapper.writeValue(new File("persona.json"),persona);
 
-            Persona persona2 = mapper.readValue(new File("persona.json"),Persona.class);
-
-            System.out.println("JSON generado:\n" + mapper.writeValueAsString(persona));
-            System.out.println("Nombre leído desde JSON: " + persona2.getNombre());
         } catch (Exception e) {
             System.out.println("Error");
         }

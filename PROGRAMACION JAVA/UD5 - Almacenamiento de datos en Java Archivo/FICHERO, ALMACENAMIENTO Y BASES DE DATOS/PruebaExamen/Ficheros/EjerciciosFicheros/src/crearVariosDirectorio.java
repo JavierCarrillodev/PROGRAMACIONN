@@ -3,11 +3,7 @@ import java.io.File;
 public class crearVariosDirectorio {
     public static void main(String[] args) {
                 // Lista de rutas a crear
-                String[] rutas = {
-                        "datos/clientes",
-                        "datos/proveedores",
-                        "imagenes/productos",
-                        "backups/2025/mayo"
+                String[] rutas = {"EjerciciosFicheros/NUEVODIRECTorio/CASA/COCINA/datos/clientes/jefe/capitan"
                 };
 
                 for (String ruta : rutas) {
